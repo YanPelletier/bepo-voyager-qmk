@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_ESCAPE,      BP_DQOT,        BP_LGIL,        BP_RGIL,        BP_LPRN,        BP_RPRN,                                        BP_AT,          BP_PLUS,        BP_MINS,        BP_SLSH,        BP_ASTR,        BP_EQL,         
     TD(DANCE_0),    BP_B,           BP_ECUT,        BP_P,           BP_O,           BP_EGRV,                                        BP_DCRC,        TD(DANCE_3),    TD(DANCE_4),    BP_L,           BP_J,           TD(DANCE_5),    
     TD(DANCE_1),    MT(MOD_LGUI, BP_A),MT(MOD_LALT, BP_U),MT(MOD_LCTL, BP_I),MT(MOD_LSFT, BP_E),BP_COMM,                                        TD(DANCE_6),    MT(MOD_RSFT, BP_T),MT(MOD_RCTL, BP_S),MT(MOD_LALT, BP_R),MT(MOD_RGUI, BP_N),BP_M,           
-    BP_DLR,         MO(2),          BP_Y,           TD(DANCE_2),    BP_DOT,         BP_K,                                           BP_APOS,        BP_Q,           BP_G,           BP_H,           LT(2,BP_F),     BP_W,           
+    BP_DLR,         LT(2,BP_AGRV),  BP_Y,           TD(DANCE_2),    BP_DOT,         BP_K,                                           BP_APOS,        BP_Q,           BP_G,           BP_H,           LT(2,BP_F),     BP_W,           
                                                     KC_BSPC,        LT(1,KC_ENTER),                                 OSM(MOD_RALT),  MEH_T(KC_SPACE)
   ),
   [1] = LAYOUT_voyager(
