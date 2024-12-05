@@ -15,6 +15,7 @@
 #define BP_E KC_F
 #define BP_COMM KC_G
 #define BP_DLR KC_GRV
+#define BP_AGRV KC_Z
 #define BP_Y KC_X
 #define BP_X KC_C
 #define BP_DOT KC_V
