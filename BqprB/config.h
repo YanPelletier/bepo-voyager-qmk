@@ -14,3 +14,7 @@
 
 #define RGB_MATRIX_STARTUP_SPD 60
 
+
+
+//Custom QMK here
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
