@@ -69,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 };
 
-const uint16_t PROGMEM combo0[] = { MT(MOD_LSFT, BP_E), MT(MOD_RSFT, BP_T), COMBO_END};
+const uint16_t PROGMEM combo0[] = { MT(MOD_LSFT, BP_E), MT(MOD_RSFT, BP_T), MT(MOD_RCTL, BP_S), MT(MOD_LCTL, BP_I), COMBO_END};
 const uint16_t PROGMEM combo1[] = { BP_EQL, BP_ASTR, BP_SLSH, COMBO_END};
 const uint16_t PROGMEM combo2[] = { MT(MOD_RSFT, BP_T), MT(MOD_RCTL, BP_S), MT(MOD_RGUI, BP_N), KC_BSPC, MT(MOD_LALT, BP_R), COMBO_END};
 const uint16_t PROGMEM combo3[] = { MEH_T(KC_SPACE), MT(MOD_RSFT, BP_T), MT(MOD_RCTL, BP_S), MT(MOD_LALT, BP_R), MT(MOD_RGUI, BP_N), COMBO_END};
